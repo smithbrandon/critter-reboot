@@ -1,0 +1,22 @@
+{
+  "name": "critter-reboot",
+  "version": "1.0.0",
+  "description": "CDM Critter Capture",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warehouseDevelopmentLabs/Critter-reboot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/warehouseDevelopmentLabs/Critter-reboot/issues"
+  },
+  "homepage": "https://github.com/warehouseDevelopmentLabs/Critter-reboot#readme",
+  "dependencies": {
+    "phaser-ce": "^2.9.2"
+  }
+}

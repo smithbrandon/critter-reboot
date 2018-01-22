@@ -15,11 +15,11 @@
         "goal" : 5
     },{
         "nets" : 4,
-        "timer" : 50,
+        "timer" : 60,
         "goal" : 10
     },{
         "nets" : 3,
-        "timer" : 40,
+        "timer" : 60,
         "goal" : 15
     }]
 },{
@@ -39,11 +39,11 @@
         "goal" : 5
     },{
         "nets" : 4,
-        "timer" : 50,
+        "timer" : 60,
         "goal" : 10
     },{
         "nets" : 3,
-        "timer" : 40,
+        "timer" : 60,
         "goal" : 15
     }]
 },{
@@ -69,11 +69,11 @@
         "goal" : 5
     },{
         "nets" : 4,
-        "timer" : 50,
+        "timer" : 60,
         "goal" : 10
     },{
         "nets" : 3,
-        "timer" : 40,
+        "timer" : 60,
         "goal" : 15
     }]
 }]

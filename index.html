@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Critterer</title>
+  <link rel="stylesheet" href="css/main.css" />
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="lib/phaser/phaser.js"></script>
+  <script type="text/javascript" src="js/Boot.js"></script>
+  <script type="text/javascript" src="js/Preloader.js"></script>
+  <script type="text/javascript" src="js/MainMenu.js"></script>
+  <script type="text/javascript" src="js/LevelMaster.js"></script>
+  <script type="text/javascript" src="js/LevelIntro.js"></script>
+  <script type="text/javascript" src="js/FunFacts.js"></script>
+  <script type="text/javascript" src="js/RoundIntro.js"></script>
+  <script type="text/javascript" src="js/Game.js"></script>
+  <script type="text/javascript" src="js/Winner.js"></script>
+  <script type="text/javascript" src="js/Credits.js"></script>
+
+    
+</head>
+<body>
+  <div id="game_container"></div>
+  <script type="text/javascript">
+    window.onload = function () {
+      // create game object, width, height, and attach to div container
+      var game = new Phaser.Game(960, 540, Phaser.AUTO, 'game_container');
+
+      // add game states
+      game.state.add('Boot', Critterer.Boot);
+      game.state.add('Preloader', Critterer.Preloader);
+      game.state.add('MainMenu', Critterer.MainMenu);
+      game.state.add('LevelMaster', Critterer.LevelMaster);
+      game.state.add('LevelIntro', Critterer.LevelIntro);
+      game.state.add('FunFacts', Critterer.FunFacts);
+      game.state.add('RoundIntro', Critterer.RoundIntro);
+      game.state.add('Game', Critterer.Game);
+      game.state.add('Winner', Critterer.Winner);
+      game.state.add('Credits', Critterer.Credits);
+      
+      // initiate game at Boot state
+      game.state.start('Boot');
+    }
+  </script>
+</body>
+</html>
